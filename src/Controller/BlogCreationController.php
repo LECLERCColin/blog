@@ -13,7 +13,7 @@ class BlogCreationController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('blog_creation/index.html.twig', [
+        return $this->render('pages/blogcreation.html.twig', [
             'controller_name' => 'BlogCreationController',
         ]);
     }
